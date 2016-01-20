@@ -1,0 +1,21 @@
+void food()
+{
+node *temp = new node;
+                
+                temp->xPosition=rand()%10;
+                temp->yPosition=rand()%10;
+                setfillstyle(1, BROWN);
+            drawBox(temp->xPosition, temp->yPosition);
+              f->xPosition=temp->xPosition;
+              f->yPosition=temp->yPosition;
+delete(temp);
+}
+void growth&check(int newdirection)
+{
+if(f->xPosition==head->xPosition && f->yPosition==yPosition)
+{
+enqueue(f->xPosition,f->yPosition,int newDirection)
+food();
+}
+}
+
